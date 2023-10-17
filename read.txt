@@ -1,0 +1,4 @@
+Creating virtual env >>> python -m -venv .venv
+Activate Source >>> execute .venv/Scripts/activate.bat
+Install Important Libraries >>> pip install pandas matplotlib numpy scikit-learn ipykernel
+Listing Installed Libraries >>> pip list
