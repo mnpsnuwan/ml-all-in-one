@@ -25,3 +25,14 @@ edges.
 edges.
 * `turan_graph(n, r) Return the Turan Graph
 * `wheel_graph(n[, create_using])` Return the wheel graph
+
+---
+### Lattice
+* `grid_2d_graph(m, n[, periodic, create_using])` Returns the two-dimensional grid
+graph.
+* `grid_graph(dim[, periodic])` Returns the n-dimensional grid graph.
+* `hexagonal_lattice_graph(m, n[, periodic, …])` Returns an m by n hexagonal lattice
+graph.
+* `hypercube_graph(n)` Returns the n-dimensional hypercube graph.
+* `triangular_lattice_graph(m, n[, periodic, …])` Returns the 𝑚 by 𝑛 triangular lattice
+graph.
