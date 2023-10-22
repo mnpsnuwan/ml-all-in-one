@@ -1,5 +1,5 @@
 # Graph Generators
-### Classic
+### Classic Graph
 * `balanced_tree(r, h[, create_using])` Returns the perfectly balanced r-ary tree of height h.
 * `barbell_graph(m1, m2[, create_using])` Returns the Barbell Graph: two complete graphs
 connected by a path.
@@ -27,7 +27,7 @@ edges.
 * `wheel_graph(n[, create_using])` Return the wheel graph
 
 ---
-### Lattice
+### Lattice Graph
 * `grid_2d_graph(m, n[, periodic, create_using])` Returns the two-dimensional grid
 graph.
 * `grid_graph(dim[, periodic])` Returns the n-dimensional grid graph.
@@ -67,7 +67,7 @@ Platonic tetrahedron.
 * `tutte_graph([create_using])` Returns the Tutte graph.
 
 ---
-### Random Graphs
+### Random Graph
 * `fast_gnp_random_graph(n, p[, seed, directed])` Returns a 𝐺𝑛,𝑝 random graph, also
 known as an Erdős-Rényi graph or a binomial graph.
 * `gnp_random_graph(n, p[, seed, directed])` Returns a 𝐺𝑛,𝑝 random graph, also known as
@@ -91,7 +91,7 @@ to the dual Barabási–Albert preferential attachment model.
 Albert model graph.
 * `powerlaw_cluster_graph(n, m, p[, seed])` Holme and Kim algorithm for growing graphs
 with powerlaw degree distribution and approximate average clustering.
-* `random_kernel_graph(n, kernel_integral[, …])` Returns an random graph based on the
+* `random_kernel_graph(n, kernel_integral[, …])` Returns a random graph based on the
 specified kernel.
 * `random_lobster(n, p1, p2[, seed])` Returns a random lobster graph.
 * `random_shell_graph(constructor[, seed])` Returns a random shell graph for the
@@ -100,5 +100,14 @@ constructor given.
 distribution.
 * `random_powerlaw_tree_sequence(n[, gamma, …])` Returns a degree sequence for a tree
 with a power law distribution.
-* `random_kernel_graph(n, kernel_integral[, …])` Returns an random graph based on the
+* `random_kernel_graph(n, kernel_integral[, …])` Returns a random graph based on the
 specified kernel.
+
+---
+### Social Network Graph
+* `karate_club_graph()` Returns Zachary’s Karate Club graph.
+* `davis_southern_women_graph()` Returns Davis Southern women social network.
+* `florentine_families_graph()` Returns Florentine families graph.
+* `les_miserables_graph()` Returns co-appearance network of characters in the novel Less
+Miserables.
+
