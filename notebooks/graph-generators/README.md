@@ -65,3 +65,40 @@ square.
 * `truncated_tetrahedron_graph([create_using])` Returns the skeleton of the truncated
 Platonic tetrahedron.
 * `tutte_graph([create_using])` Returns the Tutte graph.
+
+---
+### Random Graphs
+* `fast_gnp_random_graph(n, p[, seed, directed])` Returns a 𝐺𝑛,𝑝 random graph, also
+known as an Erdős-Rényi graph or a binomial graph.
+* `gnp_random_graph(n, p[, seed, directed])` Returns a 𝐺𝑛,𝑝 random graph, also known as
+an Erdős-Rényi graph or a binomial graph.
+* `dense_gnm_random_graph(n, m[, seed])` Returns a 𝐺𝑛,𝑚 random graph.
+* `gnm_random_graph(n, m[, seed, directed])` Returns a 𝐺𝑛,𝑚 random graph.
+* `erdos_renyi_graph(n, p[, seed, directed])` Returns a 𝐺𝑛,𝑝 random graph, also known
+as an Erdős-Rényi graph or a binomial graph.
+* `binomial_graph(n, p[, seed, directed])` Returns a 𝐺𝑛,𝑝 random graph, also known as an
+Erdős-Rényi graph or a binomial graph.
+* `newman_watts_strogatz_graph(n, k, p[, seed])` Returns a Newman–Watts–Strogatz
+small-world graph. `watts_strogatz_graph(n, k, p[, seed])` Returns a Watts–Strogatz small-world graph.
+* `connected_watts_strogatz_graph(n, k, p[, …])` Returns a connected Watts–Strogatz
+small-world graph.
+* `random_regular_graph(d, n[, seed])` Returns a random 𝑑 -regular graph on 𝑛 nodes.
+* `barabasi_albert_graph(n, m[, seed])` Returns a random graph according to the Barabási–
+Albert preferential attachment model.
+* `dual_barabasi_albert_graph(n, m1, m2, p[, seed])` Returns a random graph according
+to the dual Barabási–Albert preferential attachment model.
+* `extended_barabasi_albert_graph(n, m, p, q[, …])` Returns an extended Barabási–
+Albert model graph.
+* `powerlaw_cluster_graph(n, m, p[, seed])` Holme and Kim algorithm for growing graphs
+with powerlaw degree distribution and approximate average clustering.
+* `random_kernel_graph(n, kernel_integral[, …])` Returns an random graph based on the
+specified kernel.
+* `random_lobster(n, p1, p2[, seed])` Returns a random lobster graph.
+* `random_shell_graph(constructor[, seed])` Returns a random shell graph for the
+constructor given.
+* `random_powerlaw_tree(n[, gamma, seed, tries])` Returns a tree with a power law degree
+distribution.
+* `random_powerlaw_tree_sequence(n[, gamma, …])` Returns a degree sequence for a tree
+with a power law distribution.
+* `random_kernel_graph(n, kernel_integral[, …])` Returns an random graph based on the
+specified kernel.
