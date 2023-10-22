@@ -36,3 +36,32 @@ graph.
 * `hypercube_graph(n)` Returns the n-dimensional hypercube graph.
 * `triangular_lattice_graph(m, n[, periodic, …])` Returns the 𝑚 by 𝑛 triangular lattice
 graph.
+
+---
+### Small Graph
+* `LCF_graph(n, shift_list, repeats[, create_using])` Return the cubic graph specified
+in LCF notation.
+* `bull_graph([create_using])` Returns the Bull graph.
+* `chvatal_graph([create_using])` Returns the Chvátal graph.
+* `cubical_graph([create_using])` Returns the 3-regular Platonic Cubical graph.
+* `desargues_graph([create_using])` Return the Desargues graph.
+* `diamond_graph([create_using])` Returns the Diamond graph.
+* `dodecahedral_graph([create_using])` Return the Platonic Dodecahedral graph.
+* `frucht_graph([create_using])` Returns the Frucht Graph.
+* `heawood_graph([create_using])` Return the Heawood graph, a (3,6) cage.
+* `hoffman_singleton_graph()` Return the Hoffman-Singleton Graph.
+* `house_graph([create_using])` Returns the House graph (square with triangle on top).
+* `house_x_graph([create_using])` Returns the House graph with a cross inside the house
+square.
+* `icosahedral_graph([create_using])` Returns the Platonic Icosahedral graph.
+* `krackhardt_kite_graph([create_using])` Return the Krackhardt Kite Social Network.
+* `moebius_kantor_graph([create_using])` Returns the Moebius-Kantor graph.
+* `octahedral_graph([create_using])` Returns the Platonic Octahedral graph.
+* `pappus_graph() Return the Pappus graph.
+* `petersen_graph([create_using])` Returns the Petersen graph.
+* `sedgewick_maze_graph([create_using])` Return a small maze with a cycle.
+* `tetrahedral_graph([create_using])` Return the 3-regular Platonic Tetrahedral graph.
+* `truncated_cube_graph([create_using])` Returns the skeleton of the truncated cube.
+* `truncated_tetrahedron_graph([create_using])` Returns the skeleton of the truncated
+Platonic tetrahedron.
+* `tutte_graph([create_using])` Returns the Tutte graph.
