@@ -111,3 +111,17 @@ specified kernel.
 * `les_miserables_graph()` Returns co-appearance network of characters in the novel Less
 Miserables.
 
+---
+### Community Graph
+* `caveman_graph(l, k)` Returns a caveman graph of l cliques of size k.
+* `connected_caveman_graph(l, k)` Returns a connected caveman graph of l cliques of size k.
+* `relaxed_caveman_graph(l, k, p[, seed])` Returns a relaxed caveman graph.
+* `random_partition_graph(sizes, p_in, p_out[, …])` Returns the random partition graph
+with a partition of sizes.
+* `planted_partition_graph(l, k, p_in, p_out[, …])` Returns the planted l-partition graph.
+* `gaussian_random_partition_graph(n, s, v, …)` Generate a Gaussian random partition
+graph.
+* `ring_of_cliques(num_cliques, clique_size)` Defines a “ring of cliques” graph. 
+* `stochastic_block_model(sizes, p[, nodelist, …])` Returns a stochastic block model
+graph.
+* `windmill_graph(n, k)` Generate a windmill graph.
